@@ -218,6 +218,10 @@
 				Base,
 			);
 			mainGroup = 2A06BCDF2C99E26800A4090B;
+			packageReferences = (
+				2A06BD1E2C99E44D00A4090B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2A06BD1F2C99E4CA00A4090B /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 2A06BCE92C99E26900A4090B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -605,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A06BD1E2C99E44D00A4090B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		2A06BD1F2C99E4CA00A4090B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		2A06BCF42C99E26900A4090B /* TMDb_Movie_App.xcdatamodeld */ = {
